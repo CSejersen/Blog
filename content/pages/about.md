@@ -9,4 +9,5 @@ Hello! I am Christian Sejersen, a software engineering student from Aarhus, Denm
 - Mastering the Terminal
 
 # Contact Me
-✉️  cvsejersen@gmail.com
+
+📭 cvsejersen@gmail.com

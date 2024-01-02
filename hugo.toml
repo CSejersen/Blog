@@ -86,7 +86,7 @@ disqusShortname = ''
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "👋 Hey!"
   name = "Christian Sejersen"
-  description = "On this site I write about my engineering projects, and things i find interesting."
+  description = "On this site I write about personal engineering projects, and things i find interesting."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
