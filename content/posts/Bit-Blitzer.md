@@ -1,15 +1,9 @@
 +++
-title = 'Building A C++ Chess Engine From Scratch'
+title = 'Bit Blitzer: Building A C++ Chess Engine From Scratch'
+description = 'Using BitBoards and magic indexing for move generation, and an improved min max search algorithm with alpha beta pruning to find the best moves.'
 date = 2024-01-02T12:39:38+01:00
 +++
 
-# This is a title
+# Bit Blitzer
 
-And this is a list:
-- item 1
-- item 2
-- item 3
-
-This is **bold text**  
-And this is _italic text_  
 

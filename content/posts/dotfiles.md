@@ -1,5 +1,5 @@
 +++
-title = 'Dotfile Zen - Achieving Nirvana with Bare Git Repos'
+title = 'Dotfile Zen: Achieving Nirvana with Bare Git Repos'
 date = 2024-01-02T13:54:39+01:00
 +++
 
