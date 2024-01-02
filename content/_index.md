@@ -1,5 +1,5 @@
 ---
 title: "Home"
-author : "Hugo Authors"
+author : "Christian Sejersen"
 ---
 
