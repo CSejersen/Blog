@@ -1,5 +1,6 @@
 title = "Christian Sejersen"
-baseURL = '//csejersen.github.io/blog/'
+baseURL = '//csejersen.github.io/'
+canonifyURLs = true
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
