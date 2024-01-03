@@ -16,7 +16,7 @@ as we have to know the type of piece on a given square. To solve this problem I 
 
 If we have the starting position, visualizing the 6 white bitboards with an X for 1's and a dash for 0's looks like this:
 
-![White bitboards start position](/bit_blitzer/bitboards_startpos.png)
+![White bitboards start position](/bitboards_startpos.png)
 
 In C++ I use the uint64_t type for my Bitboards, and a few useful bit manipulation functions to operate on them.
 
