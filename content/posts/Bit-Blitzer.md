@@ -6,20 +6,19 @@ date = 2024-01-02T12:39:38+01:00
 
 After spending more than a decade pushing pawns myself, I recently stumbled upon the concept of Bitboards in chess programming. This intruiged me, 
 as representing the position with bitboards enables a large part of the computations to be done with bitwise operations and blazingly fast look-up tables. The prospect of 
-theese speeds made me embark on the biggest programming challenge of my life. A full-blown chess engine written in C++.
+theese speeds made me take on a huge programming challenge. A full-blown chess engine written in C++.
 
 # What is a Bit Bitboard?
 
 Bitboards work by representing the 64 square of the chessboard with a single 64 bit binary number. Setting a bit to 1 on the Bitboard 
-represents a piece on the corresponding square. Having just 1 bitboard to represent an entire position is of course not enough, 
-as we have to know the type of piece on a given square. To solve this problem I use a total of 12 bitboards - 1 for every type of piece.  
+represents a piece on the corresponding square. Having just 1 bitboard to represent an entire position is not enough, 
+as we have to know the type of piece on a given square. To solve this problem most engines use a total of 12 bitboards - 1 for every type of piece.   
 
-If we have the starting position, visualizing the 6 white bitboards with an X for 1's and a dash for 0's looks like this:
+With the starting position on the board, visualizing the 6 white bitboards with an X for 1's and a dash for 0's looks like this:
 
 ![White bitboards start position](/img/bb.png)
 
-In C++ I use the uint64_t type for my Bitboards, and a few useful bit manipulation functions to operate on them.
-
+In C++ I use the uint64_t type for my Bitboards, and a few useful bit manipulation functions to operate on them. 
 ```C++
 void setBit(U64 &bb, int i){
     (bb) |= (1ULL << i);
@@ -41,7 +40,7 @@ const U64 RANK_7 = 0xff000000000000ULL;
 const U64 RANK_8 = 0xff00000000000000ULL;
 ```
 
-The most beautiful aspect of bitboards however, come to light when we start moving the pieces around. Lets say we want to move a pawn 1 square forwards. Simply bitshift its
+The most beautiful aspect of bitboards however, comes to light when we start moving the pieces around. Lets say we want to move a pawn 1 square forwards. Simply bitshift its
 position by 8 and there you go. Moving a knight forwards and to the right? Easy, bitshift it by 17 and Bob's your uncle. 
 
 
