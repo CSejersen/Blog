@@ -5,7 +5,7 @@ date = 2024-01-02T12:39:38+01:00
 +++
 
 After spending more than a decade pushing pawns myself, I recently stumbled upon the concept of Bitboards in chess programming. This intruiged me, 
-as representing the position with bitboards enables computations to be done with bitwise operations and blazingly fast look-up tables. The prospect of 
+as representing the position with bitboards enables the engine to use bitwise operations and blazingly fast look-up tables. The prospect of 
 theese break neck speeds made me take on the challenge of building a full-blown chess engine in C++.
 
 # What is a Bit Bitboard?
