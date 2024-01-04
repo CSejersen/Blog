@@ -5,8 +5,8 @@ date = 2024-01-02T12:39:38+01:00
 +++
 
 After spending more than a decade pushing pawns myself, I recently stumbled upon the concept of Bitboards in chess programming. 
-Representing the position with bitboards enables the engine to use bitwise operations and blazingly fast look-up tables. This intruiged me, and the prospect of 
-breakneck speeds made me take on the challenge of building a full-blown chess engine in C++.
+This was quite interesting to me, as representing a chess-position with bitboards enables the engine to use bitwise operations and blazingly fast look-up lookup-tables
+to do its computations. The prospect of these breakneck speeds made me take on the challenge of building a full-blown chess engine in C++.
 
 # What is a Bit Bitboard?
 
